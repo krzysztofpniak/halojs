@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="App" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69294ad6-8333-43d9-ae88-1ae2f7b3ff6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/halo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/halo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/arrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/arrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/fns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/fns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/pair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/pair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halo/helpers/routeDuplex/routeduplex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/halo/helpers/routeDuplex/routeduplex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/__test__/lens.spec.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/__test__/prism.spec.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/future.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/fns.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/lens.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/arrow.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/id.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/__test__/foldMapOf.spec.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/halo/helpers/go.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="App" pattern="file[moneyforecast]:src/app//*" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="3" />
+  </component>
+  <component name="ProjectId" id="26cYWUROwGA9HfL4EuYMUVo7OKf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/src/halo/stories" />
+      <recent name="$PROJECT_DIR$/src/app/pages" />
+      <recent name="$PROJECT_DIR$/src/js-utils" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/pages/home" />
+      <recent name="$PROJECT_DIR$/src/halo/helpers/routeDuplex" />
+      <recent name="$PROJECT_DIR$/src/halo" />
+      <recent name="$PROJECT_DIR$/src/app/components" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.editorEvalFn.renders correctly">
+    <configuration name="editorEvalFn.renders correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/app/pages/__test__/editor.spec.js" />
+      <test-names>
+        <test-name value="editorEvalFn" />
+        <test-name value="renders correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="editorEvalFn.should x" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/app/pages/__test__/editor.spec.js" />
+      <test-names>
+        <test-name value="editorEvalFn" />
+        <test-name value="should x" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="home" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/app/pages/home/__test__/evalFn.spec.js" />
+      <test-names>
+        <test-name value="home" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="home.evalFn.handleAction.ShowTab.should handle ShowTab.Tag" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/app/pages/home/__test__/evalFn.spec.js" />
+      <test-names>
+        <test-name value="home" />
+        <test-name value="evalFn" />
+        <test-name value="handleAction" />
+        <test-name value="ShowTab" />
+        <test-name value="should handle ShowTab.Tag" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="home.evalFn.should initialize" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/app/pages/home/__test__/evalFn.spec.js" />
+      <test-names>
+        <test-name value="home" />
+        <test-name value="evalFn" />
+        <test-name value="should initialize" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.editorEvalFn.renders correctly" />
+        <item itemvalue="Jest.editorEvalFn.should x" />
+        <item itemvalue="Jest.home" />
+        <item itemvalue="Jest.home.evalFn.should initialize" />
+        <item itemvalue="Jest.home.evalFn.handleAction.ShowTab.should handle ShowTab.Tag" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69294ad6-8333-43d9-ae88-1ae2f7b3ff6f" name="Default Changelist" comment="" />
+      <created>1647724372872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647724372872</updated>
+      <workItem from="1647724374638" duration="16171000" />
+      <workItem from="1648203888795" duration="224000" />
+      <workItem from="1649506147398" duration="17405000" />
+      <workItem from="1651560608305" duration="306000" />
+      <workItem from="1651563457197" duration="119027000" />
+      <workItem from="1653549630118" duration="46742000" />
+      <workItem from="1654688743413" duration="40967000" />
+      <workItem from="1655454585438" duration="105052000" />
+      <workItem from="1657616239838" duration="54000" />
+      <workItem from="1657721460207" duration="53126000" />
+      <workItem from="1658735447264" duration="8000" />
+      <workItem from="1658751472457" duration="21989000" />
+      <workItem from="1660811856768" duration="40000" />
+      <workItem from="1662038615328" duration="2022000" />
+      <workItem from="1662117226574" duration="96603000" />
+      <workItem from="1663699134694" duration="13454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/halo/helpers/fns.js</url>
+          <line>77</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
