@@ -11,7 +11,7 @@ const config = {
   title: 'Halo',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/halojs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
