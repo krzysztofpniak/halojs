@@ -56,19 +56,12 @@ const config = {
               xx,
               {
                 defaultText: '<b>Try it on CodeSandbox</b>',
-                directory: `${__dirname}/examples/`,
+                directory: `${__dirname}/../examples/`,
                 externals: [
                   `//unpkg.com/react/umd/react.development.js`,
                   `//unpkg.com/react-dom/umd/react-dom.development.js`,
                 ],
-                dependencies: [
-                  `react`,
-                  `react-dom`,
-                  '@k-frame/core',
-                  '@k-frame/forms',
-                  'ramda',
-                  'redux',
-                ],
+                dependencies: [`react`, `react-dom`, '@halojs/core', 'ramda'],
                 redirectTemplate: `${__dirname}/src/templates/codepen-example.js`,
                 target: '_blank',
               },
@@ -76,7 +69,7 @@ const config = {
             [
               options => markdownAST => embedSnippet({markdownAST}, options),
               {
-                directory: `${__dirname}/examples/`,
+                directory: `${__dirname}/../examples/`,
               },
             ],
           ],

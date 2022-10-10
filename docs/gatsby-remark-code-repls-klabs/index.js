@@ -142,19 +142,36 @@ module.exports =
                     map[name] = version || 'latest';
                     return map;
                   }, {}),
-                  main: filesPaths[0].url,
+                  main: 'src/index.js',
                 },
               },
-              'index.html': {
+              'public/index.html': {
                 content: html,
+              },
+              'src/index.js': {
+                content: `import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
+import App from "./${filesPaths[0].url}";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+`,
               },
             },
           };
 
           filesPaths.forEach((path, i) => {
             const code = fs.readFileSync(path.filePath, `utf8`);
-            parameters.files[path.url] = {
-              content: code,
+            //TODO
+            parameters.files[`src/${path.url}`] = {
+              content: code.replace('../halo/halo', '@halojs/core'),
             };
           });
 

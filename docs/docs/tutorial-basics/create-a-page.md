@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import Counter from '../../examples/test.js';
+import Counter from '../../../examples/test.js';
 
 # Create a Counter
 
