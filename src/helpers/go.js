@@ -1,5 +1,5 @@
 import {chain} from 'ramda';
-import immutagen from 'immutagen';
+import immutagen from './immutagen';
 
 const rec2 = res =>
   !res.next
