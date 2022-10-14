@@ -42,7 +42,7 @@ describe('Counter', () => {
     );
   });
 
-  it('should handle Dec', () => {
+  it('should handle Reset', () => {
     const {dispatch, putState} = setupEval(counterEvalFn);
 
     fc.assert(
