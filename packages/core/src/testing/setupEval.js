@@ -1,13 +1,17 @@
 import {HalogenQ} from '../halo';
 import Pair from '../helpers/pair';
 import show from '../helpers/show';
+import {compare} from 'fast-json-patch';
 
 const interpret2 =
   ({stateRef, appEffectsRef}) =>
   x =>
     x.cata({
       State: fn => {
-        stateRef.current = fn(stateRef.current);
+        const prev = stateRef.current;
+        const next = fn(prev);
+        stateRef.current = next;
+        const diff = compare(prev, next);
         return Pair([`State: ${show(stateRef.current)}`], stateRef.current);
       },
       Lift: () => 'df',

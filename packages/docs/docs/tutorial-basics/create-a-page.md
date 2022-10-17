@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-import Counter from '../../../examples/test.js';
+import Counter from '../../../examples/1-counter/counter.js';
 
 # Create a Counter
 
 ### Plain JS
 
-`embed:test.js`
+`embed:1-counter/counter.js`
 
-[Try it on CodeSandbox](codesandbox://test.js)
+[Try it on CodeSandbox](codesandbox://1-counter)
 
 <Counter />
 

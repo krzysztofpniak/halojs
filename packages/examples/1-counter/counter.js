@@ -1,5 +1,5 @@
 import React from 'react';
-import {H, mkComponent, mkEval, taggedSum} from '../src/halo';
+import {H, mkComponent, mkEval, taggedSum} from '../../core/src/halo';
 import {add, always, evolve} from 'ramda';
 
 const CounterAction = taggedSum('Action', {

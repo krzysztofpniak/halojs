@@ -37,6 +37,36 @@ function convertNodeToLink(node, text, href, target) {
   node.value = `<a href="${href}" ${target}>${text}</a>`;
 }
 
+function convertNodeToPre(node, text) {
+  delete node.children;
+  delete node.position;
+  delete node.title;
+  delete node.url;
+
+  node.type = `html`;
+  node.value = `<pre>${escapeHtml(text)}</pre>`;
+}
+
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+const getFiles = path => {
+  const files = [];
+  for (const file of fs.readdirSync(path)) {
+    const fullPath = path + '/' + file;
+    if (fs.lstatSync(fullPath).isDirectory())
+      getFiles(fullPath).forEach(x => files.push(file + '/' + x));
+    else files.push(file);
+  }
+  return files;
+};
+
 module.exports =
   ({
     defaultText = OPTION_DEFAULT_LINK_TEXT,
@@ -123,15 +153,33 @@ module.exports =
 
           convertNodeToLink(node, text, href, target);
         } else if (node.url.startsWith(PROTOCOL_CODE_SANDBOX)) {
-          const filesPaths = getMultipleFilesPaths(
-            node.url,
-            PROTOCOL_CODE_SANDBOX,
-            directory
+          const zz = join(
+            directory,
+            node.url.replace(PROTOCOL_CODE_SANDBOX, ``)
           );
-          verifyMultipleFiles(filesPaths, PROTOCOL_CODE_SANDBOX);
+
+          // if (!fs.existsSync(zz)) {
+          //   throw Error(`Invalid REPL link specified; no such file "${zz}"`);
+          // }
+
+          const filesPaths = getFiles(zz).map(url => ({
+            url,
+            filePath: normalizePath(join(zz, url)),
+          }));
+
+          console.log('qqq', filesPaths);
+
+          //return;
+
+          // const filesPaths = getMultipleFilesPaths(
+          //   node.url,
+          //   PROTOCOL_CODE_SANDBOX,
+          //   directory
+          // );
+          // verifyMultipleFiles(filesPaths, PROTOCOL_CODE_SANDBOX);
 
           // CodeSandbox GET API requires a list of "files" keyed by name
-          let parameters = {
+          const parameters = {
             files: {
               'package.json': {
                 content: {
@@ -176,13 +224,15 @@ root.render(
           });
 
           // This config JSON must then be lz-string compressed
-          parameters = compress(JSON.stringify(parameters));
+          const compressedParameters = compress(JSON.stringify(parameters));
 
-          const href = `https://codesandbox.io/api/v1/sandboxes/define?parameters=${parameters}`;
+          const href = `https://codesandbox.io/api/v1/sandboxes/define?parameters=${compressedParameters}`;
           const text =
             node.children.length === 0 ? defaultText : node.children[0].value;
 
           convertNodeToLink(node, text, href, target);
+
+          //convertNodeToPre(node, JSON.stringify(parameters, null, 2));
         } else if (node.url.startsWith(PROTOCOL_RAMDA)) {
           const filePath = getFilePath(node.url, PROTOCOL_RAMDA, directory);
 

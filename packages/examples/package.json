@@ -1,0 +1,8 @@
+{
+  "name": "examples",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "ramda": "^0.28.0",
+    "react": "^18.2.0"
+  }
+}

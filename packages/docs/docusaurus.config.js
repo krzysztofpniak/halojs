@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const xx = require('./gatsby-remark-code-repls-klabs/index.js');
-const embedSnippet = require('gatsby-remark-embed-snippet');
+const embedSnippet = require('./gatsby-remark-embed-snippet/index.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {

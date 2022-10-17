@@ -1,6 +1,6 @@
 import fc from 'fast-check';
-import setupEval from '../../src/testing/setupEval';
-import {counterEvalFn, CounterAction} from '../test';
+import setupEval from '../../../core/src/testing/setupEval';
+import {counterEvalFn, CounterAction} from '../counter';
 
 describe('Counter', () => {
   it('should handle Inc', () => {
